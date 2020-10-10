@@ -1,0 +1,57 @@
+
+.note_container {
+    width: 98%;
+    padding: 25px;
+    margin: 0 auto;
+    
+  }
+
+  .note_container h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .note_content {
+    width: 280px;
+    height: 160px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    box-shadow: 5px 5px 30px  rgba(0, 0, 0, 0.152);
+  }
+  
+  .note_content:hover {
+    transform: scale(1);
+  }
+  
+  .tech_bg_color {
+    background-color: rgba(10, 145, 255, 0.103);
+    padding-bottom: 20px;
+  }
+  .tech_bg_color h1 {
+    padding-top: 50px;
+    font-size: 35px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .col{
+    
+        float: left;
+        width: 25%;
+        /* padding: 0 10px; */
+     
+  }
+
+  .deleteBtn{
+      position: relative;
+      float: right;
+  }
+
+  

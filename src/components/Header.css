@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    box-shadow: 5px -5px 20px rgba(128, 128, 128, 0.438);
+   
+}
+.header{
+    width: 80%;
+    height: 13vh;
+    margin: 0 auto;
+    
+}
+
+.header img{
+    width: 6rem;
+    height: 5rem;
+   
+}
